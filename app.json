@@ -1,0 +1,11 @@
+{
+  "name": "Telegram Group Chat Bot",
+  "stack": "container",
+  "env": {
+    "BOT_TOKEN": { "required": true },
+    "OWNER_ID": { "required": true },
+    "MONGO_URI": { "required": true },
+    "HF_TOKEN": { "required": false }
+  }
+}
+
